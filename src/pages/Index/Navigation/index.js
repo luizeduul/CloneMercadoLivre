@@ -26,12 +26,12 @@ const optionsHeader = ({ navigation }) => ({
       title="Info"
       onPress={() => navigation.toggleDrawer()}
     >
-      <Feather name="align-left" size={24} />
+      <Feather name="menu" size={24} />
     </TouchableOpacity>
   ),
   headerRight: () => (
-    <TouchableOpacity style={{ marginRight: 10 }} title="Info">
-      <EvilIcons name="cart" size={24} />
+    <TouchableOpacity style={{ marginRight: 15 }} title="Info">
+      <Feather name="shopping-cart" size={24} />
     </TouchableOpacity>
   ),
   
@@ -39,7 +39,7 @@ const optionsHeader = ({ navigation }) => ({
 
 const Navigation = () => {
   return (
-    <Navigator initialRouteName="List">
+    <Navigator initialRouteName="Main">
       <Screen name="Main" component={Main} options={optionsHeader} />
       <Screen name="List" component={List} options={optionsHeader} />
     </Navigator>

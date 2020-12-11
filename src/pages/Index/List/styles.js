@@ -18,9 +18,9 @@ export const Button = styled.TouchableOpacity`
 `;
 
 export const Picture = styled.Image`
-  width: 80px;
+  width: 110px;
   height: 80px;
-  margin-right: 30px;
+  margin-right: 15px;
 `;
 
 export const InfoProductView = styled.View``;
