@@ -39,7 +39,7 @@
 ## Previews do projeto
 
 <p align="center">
- <img src="" alt="Video demonstração"/>
+ <img src="https://ik.imagekit.io/8qmbx6p1dq/Dio_ML_clone/ml-clone-gif_30t2gc0gz.gif" alt="Video demonstração"/>
 </p>
 
 ---
